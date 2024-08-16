@@ -1,0 +1,53 @@
+Welcome to MasterJi
+
+In this assignment, you will be implementing three tasks based on provided Figma designs. 
+Your goal is to develop the components using React + perform API Integration with FreeAPI.app while ensuring your code aligns precisely 
+with the designs. The tasks are as follows:
+
+1. Random User Profile
+
+2. Random Jokes tweet
+
+3. Cats listing
+
+Link to Figma
+
+Evaluation Parameters
+The following set of states for the given task are to be achieved inorder to consider a valid submission
+
+Random User Profile (5 marks):
+Match the component styling as per figma
+Refresh button to fetch next set of random data
+Loading state of a card (as per your creativitiy on how you will do this)
+Map api response fields as per the figma design
+Hyperlink intends of location & call should perform the actions to new tab
+API to use: https://api.freeapi.app/api/v1/public/randomusers/user/random
+
+Random Jokes tweet (5 marks):
+Keep tweet author details static (ex. elon must as per example)
+Timestamp, views, date & other analytics of tweet should be randomly generated
+Loading state of a card (as per your creativitiy on how you will do this)
+On page reload, new joke data should be replaced with tweet card content
+API to use: https://api.freeapi.app/api/v1/public/randomjokes/joke/random
+
+
+Cats listing (5 marks):
+Paginated list of horizontal scrolling cards that hold cats information
+Loading state of a cards (as per your creativitiy on how you will do this)
+API to use: https://api.freeapi.app/api/v1/public/cats?page=1&limit=4
+pagination and limit has to be decided by the developer such that from the api we can have all cats listed from first to last records in DB
+Additional Requirements:
+
+All three assignments must be completed inside a single react project under different URL routes for the three tasks respectively:
+/random-user
+/random-jokes
+/cats-listing
+Base URL of (/) must redirect to the first task route of /random-user
+Ensure that the branding logo is positioned as per the task. Clicking the chai logo should open the "chaicode.com" website
+Your React code must precisely match the provided Figma designs
+Submission Instructions
+On completion of the assignment, you are expected to submit a public github repository which comes with a README.md, screenshots, basic description & link to the hosted website.
+
+Important NOTE:
+The assignment submission will be closed by 16 August Friday at 8:30 PM IST & Opens evaluation window to do peer review of others who submitted.
+You have to go through the assigned submission, perform code review and submit the scores by 18 August Sunday 11:30 PM IST.
