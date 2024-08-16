@@ -7,3 +7,31 @@
     background-color: black ;
     /* background-color: black !important; */
 }
+
+
+
+header {
+    /* height: 110px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 10px;
+}
+
+header a {
+    text-decoration: none;
+    color: #eee4e4;
+    font-weight: 600;
+    padding: 5px 20px;
+}
+
+a.active-link{
+    color: #fbfbfb;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+header a:hover {
+    color: #9a9494;
+    text-decoration: underline;
+}
